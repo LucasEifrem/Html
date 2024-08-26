@@ -1,0 +1,54 @@
+* {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+
+body > header {
+  color: gray;
+}
+body > header > h1 {
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Picture {
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+.Table {
+  display: flex;
+  justify-content: space-between;
+  border: solid black 1px;
+  border-radius: 2px;
+  width: 100%;
+  border-radius: 10px;
+}
+td {
+  border: 4px solid red;
+  border-radius: 15px;
+  padding: 10px;
+}
+.boss {
+  display: flex;
+  border: solid black 1px;
+  border-radius: 2px;
+  width: 30%;
+  padding: 100px;
+  margin: 100px;
+}
+body > header > table {
+  width: 100%;
+}
+body > main > table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
